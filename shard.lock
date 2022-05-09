@@ -1,0 +1,18 @@
+version: 2.0
+shards:
+  discordcr:
+    git: https://github.com/shardlab/discordcr.git
+    version: 0.4.1
+
+  dns:
+    git: https://gitlab.com/jgillich/crystal-dns.git
+    version: 0.1.1
+
+  dotenv:
+    git: https://github.com/drum445/dotenv.git
+    version: 0.4.0
+
+  ipaddress:
+    git: https://github.com/sija/ipaddress.cr.git
+    version: 0.2.1
+

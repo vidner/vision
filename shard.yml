@@ -1,0 +1,23 @@
+name: vision
+version: 0.1.0
+
+authors:
+  - vidner <vidnerian@mail.ru>
+
+targets:
+  vision:
+    main: src/vision.cr
+
+dependencies:
+  ipaddress:
+    github: sija/ipaddress.cr
+  dns:
+    gitlab: jgillich/crystal-dns
+  discordcr:
+    github: shardlab/discordcr
+  dotenv:
+    github: drum445/dotenv
+
+crystal: 1.4.0
+
+license: MIT
